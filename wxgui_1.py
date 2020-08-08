@@ -6,9 +6,9 @@ def xbc(event):
 
 a = wx.App()
 
-w = wx.Frame(None, title="Who is Scheduled?",
+w = wx.Frame(None, title="Who is Online?",
              size=(200, 100))
-button = wx.Button(w, label="Send Schedule")
+button = wx.Button(w, label="Send Online Notice")
 button.Bind(wx.EVT_BUTTON, xbc)
 
 w.Show()
