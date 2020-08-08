@@ -6,7 +6,7 @@ def xbc(event):
 
 a = wx.App()
 
-w = wx.Frame(None, title="Scheduling Application",
+w = wx.Frame(None, title="Who is Scheduled?",
              size=(200, 100))
 button = wx.Button(w, label="Send Schedule")
 button.Bind(wx.EVT_BUTTON, xbc)
